@@ -1,0 +1,35 @@
+.task{
+  
+    margin-top: 50px;
+
+    border-top: 1px solid var(--gray-400);
+
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:800px;
+    margin: auto;
+    margin-top: 2rem;
+    
+}
+
+.img{
+    margin-top: 50px;
+    margin-bottom: 2rem;
+}
+
+.strongNothing{
+    font-weight: 700;
+font-size: 16px;
+line-height: 140%;
+color: var(--gray-300);
+}
+
+.nothingParagrafh{
+    font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: var(--gray-300);
+}
