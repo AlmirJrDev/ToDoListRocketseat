@@ -243,3 +243,56 @@ li
   border: none;
 }
 
+@media only screen and (max-width: 768px) {
+  .App {
+  padding: 16px;
+  }
+  .inputtext {
+  width: 100%;
+  }
+  .buttonAdd {
+  width: auto;
+  }
+  .taskCounter {
+  gap: 16px;
+  }
+  .nothing {
+  margin: 20px auto;
+  }
+  .logo {
+  margin: 16px auto;
+  }
+  .noTaskMessage {
+  width: 100%;
+  }
+  .inputtask {
+  flex-direction: row;
+  height: auto;
+  padding: 12px;
+  gap: 8px;
+  }
+  .inputtask label {
+  display: block;
+  margin-bottom: 8px;
+  }
+  .inputtask input[type="text"] {
+  width: 100%;
+  }
+  .inputtask button {
+  width: 100%;
+  }
+  li .spanicon {
+  width: 20px;
+  height: 20px;
+  font-size: 12px;
+  line-height: 12px;
+  padding: 0;
+  margin-right: 8px;
+  }
+  .tasks {
+  margin-top: 16px;
+  }
+
+
+
+}
